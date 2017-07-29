@@ -26,3 +26,12 @@ $git chechout -- file
 	//用版本库里的版本替换工作区的版本
 $git rm
 	//删除版本库文件，需要commit
+$ssh-keygen -t rsa -C "email@example.com"
+	//创建SSH Key
+	//GitHub，Account settings，SSH Key，Add SSH Key，拷贝id_rsa.pub
+$git remote add origin https://github.com/MC0617/LearnGit.git
+	//添加、关联远程库，origin可改
+$git push [-u] origin master
+	//将本地库内容推送到远程
+	//首次推送需要[-u]参数
+
