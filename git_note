@@ -1,4 +1,4 @@
-#########
+# git命令笔记
 $git init
 	//初始化一个git仓库
 $git add <file>
@@ -28,10 +28,23 @@ $git rm
 	//删除版本库文件，需要commit
 $ssh-keygen -t rsa -C "email@example.com"
 	//创建SSH Key
-	//GitHub，Account settings，SSH Key，Add SSH Key，拷贝id_rsa.pub
+	//GitHub，Account settings，SSH Key，Add SSH Key ， 拷贝id_rsa.pub
 $git remote add origin https://github.com/MC0617/LearnGit.git
 	//添加、关联远程库，origin可改
 $git push [-u] origin master
 	//将本地库内容推送到远程
 	//首次推送需要[-u]参数
+
+$git branch
+	//列出所有分支，当前标有*
+$git branch <branch>
+	//创建新分支
+$git checkout <branch>
+	//切换到分支
+$git checkout -b <name>
+	//创建并切换分支
+$git merge <name>
+	//合并分支到当前分支
+$git branch -d <name>
+	//删除分支
 
