@@ -5,3 +5,7 @@ $git add <file>
 	//添加文件，可多次使用以添加多个文件
 $git commit [-m "help,note.."]
 	//提交更改
+$git status
+	//查看工作区状态
+$git diff
+	//查看所做更改
