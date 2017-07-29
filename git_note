@@ -1,0 +1,7 @@
+#########
+$git init
+	//初始化一个git仓库
+$git add <file>
+	//添加文件，可多次使用以添加多个文件
+$git commit [-m "help,note.."]
+	//提交更改
