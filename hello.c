@@ -2,8 +2,9 @@
 
 int main()
 {
-	printf("hello, world");
-	printf("test branch");
-	printf("\nline 2\n");
+	printf("hello, world\n");
+	printf("test branch\n");
+	printf("--no-ff\n");
+	printf("\nline n");
 	return 0;
 }
